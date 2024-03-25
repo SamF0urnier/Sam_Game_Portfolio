@@ -1,0 +1,55 @@
+
+
+.navbar{
+    background-color: black;
+    border-radius: 30px;
+    position: sticky;
+    top: 20px;
+}
+    
+.padding {
+    padding-top: 80px;
+}
+
+img{
+    width: 400px; 
+    margin: 10px;
+    border: solid 7px;
+    border-color: black;
+    border-radius: 10px;
+}
+body{
+background-image: url(../Images/texture.png);
+background-repeat: repeat;
+background-attachment: scroll;
+background-position: center;
+margin: 0px;
+}
+
+p{
+    text-align: justify;
+}
+
+.navbar ul{
+    overflow: auto;
+}
+    
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 15px 20px;
+}
+
+.navbar li a{
+    padding: 3px 4px;
+    text-decoration: none;
+    color: white;
+}
+
+.a:hover{
+    color: gray;
+}
+        
+.a:active{
+    color: red;
+}

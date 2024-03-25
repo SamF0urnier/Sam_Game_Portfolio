@@ -1,0 +1,66 @@
+.navbar{
+    background-color: black;
+    border-radius: 30px;
+    position: sticky;
+    top: 20px;
+}
+
+.navbar ul{
+    overflow: auto;
+}
+    
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 15px 20px;
+}
+
+.navbar li a{
+    padding: 3px 4px;
+    text-decoration: none;
+    color: white;
+}
+
+.a:hover{
+    color: gray;
+}
+        
+.a:active{
+    color: red;
+}
+
+body{
+    background-image: url(../Images/texture.png);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: center;
+    margin: 0px;
+}
+
+p{
+    text-align: justify;
+}
+
+.flexcontainer {
+    display: flex;
+    height: 1000px;
+    flex-direction: row;
+}
+
+.flexcontainer1 {
+    display: flex;
+    height: 1000px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flexitem {
+    margin: 10px;
+    height: 1000px;
+}
+
+img{
+    width: 300px;
+    border-radius: 10px;
+    border: 7px solid black;
+}
